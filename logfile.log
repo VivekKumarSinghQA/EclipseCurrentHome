@@ -1,0 +1,13 @@
+2018-10-09 15:58:41,331 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-09 15:59:08,011 ERROR [Log] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: section.form__group.-button.\2b textCenter > button (tried for 10 second(s) with 500 milliseconds interval) 
+2018-10-09 15:59:08,700 INFO  [Log] Test case failed 
+2018-10-09 15:59:08,700 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-10-09 15:59:10,143 INFO  [Log] Driver Quit Successful 
+2018-10-09 15:59:14,412 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-09 15:59:39,659 INFO  [Log] Test case passed 
+2018-10-09 15:59:39,659 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-10-09 15:59:41,231 INFO  [Log] Driver Quit Successful 
+2018-10-10 11:45:28,968 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-10 11:46:09,947 INFO  [Log] Test case passed 
+2018-10-10 11:46:09,948 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-10-10 11:46:11,803 INFO  [Log] Driver Quit Successful 
