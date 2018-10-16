@@ -1,6 +1,11 @@
 package com.utilities;
 
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -81,7 +86,6 @@ public class WebDriverUtils {
 
 				throw new Exception("Driver is null");
 			}
-			System.out.println(url);
 			driver.get(url);
 
 		} catch (Exception ex) {
@@ -118,6 +122,20 @@ public class WebDriverUtils {
 	public static String TextChecker(WebElement ElementForText) {
 		String valueOfTheElement = ElementForText.getText();
 		return valueOfTheElement;
+	}
+
+	public static void TakeScreenShot() {
+		try {
+			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile,
+					new File(System.getProperty("user.dir")+"defectScreenShots\\"
+							+ getTestName() + ".jpeg"));
+			Log.info(Environment.ReadExcelData("Global_Validater", 5, 1));
+
+		} catch (Exception x) {
+			Log.error(x);
+			Log.info(Environment.ReadExcelData("Global_Validater", 6, 1));
+		}
 	}
 
 	public enum BrowserEnum {

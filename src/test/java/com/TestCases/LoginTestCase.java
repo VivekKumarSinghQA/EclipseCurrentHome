@@ -27,6 +27,7 @@ public class LoginTestCase extends TestBase {
 			Log.info(Environment.ReadExcelData("Global_Validater", 1, 1));
 			Log.endTestCase("LoginTest");
 		} catch (Exception e) {
+			WebDriverUtils.TakeScreenShot();
 			getTest().log(LogStatus.FAIL, Environment.ReadExcelData("Login_Validator", 3, 0));
 			Log.error(e);
 			Log.info(Environment.ReadExcelData("Global_Validater", 2, 1));
