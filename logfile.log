@@ -1,0 +1,12 @@
+2018-10-17 00:23:30,481 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-17 00:23:31,529 ERROR [Log] java.lang.NullPointerException 
+2018-10-17 00:23:33,182 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-17 00:23:33,993 ERROR [Log] java.lang.NullPointerException 
+2018-10-17 00:23:36,104 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-17 00:23:37,205 ERROR [Log] java.lang.NullPointerException 
+2018-10-17 00:23:38,863 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-17 00:23:39,650 ERROR [Log] java.lang.NullPointerException 
+2018-10-17 00:26:17,360 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-10-17 00:26:35,837 INFO  [Log] Test case passed 
+2018-10-17 00:26:35,837 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-10-17 00:26:37,334 INFO  [Log] Driver Quit Successful 

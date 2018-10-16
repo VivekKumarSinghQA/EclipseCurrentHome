@@ -25,7 +25,7 @@ public class ReadGoogleSpreadSheet {
 
 	private static final String APPLICATION_NAME = "Google Sheets API Java Quickstart";
 
-	private static final String SPREADSHEET_ID = "141s_G5COF_Xi-Imqi8rrapOb-JL1zBqT87ehPjgfI4g";
+	private static final String SPREADSHEET_ID = "1SdJBJMap0k6cRtstjf0jXR4uX_41fT3vPBSH_7a7eZY";
 
 	private static final java.io.File DATA_STORE_DIR = new java.io.File(System.getProperty("user.home"),
 			".credentials/sheets.googleapis.com-java-quickstart");
